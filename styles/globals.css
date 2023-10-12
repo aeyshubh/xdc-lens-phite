@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.customText {
+  color: yellow;
+  text-shadow: 5px 4px 0 #da3333;
+  color: yellow;
+  }
+
+.play-battle-btn {
+  min-width: 150px;
+  height: 50px;
+  color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #ef233c;
+  box-shadow: 0 5px #d90429;
+}
+.play-battle-btn:hover {
+  box-shadow: 0 3px #d90429;
+  top: 1px;
+}
+.play-battle-btn:active {
+  box-shadow: 0 0 #d90429;
+  top: 5px;
+}
+.index-mint-btn {
+  min-width: 150px;
+  height: 50px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #2980b9;
+  background: #0097b2;
+  box-shadow: 0 5px #f1c40f;
+}
+.index-mint-btn:hover {
+  box-shadow: 0 3px #f1c40f;
+  top: 1px;
+}
+.index-mint-btn:active {
+  box-shadow: 0 0 #f1c40f;
+  top: 5px;
+}
+.index-battle-btn {
+  min-width: 150px;
+  height: 50px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #e14356;
+  box-shadow: 0 5px #f1c40f;
+}
+.index-battle-btn:hover {
+  box-shadow: 0 3px #f1c40f;
+  top: 1px;
+}
+.index-battle-btn:active {
+  box-shadow: 0 0 #f1c40f;
+  top: 5px;
+}
+.drop-shadow-lg {
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.04)) drop-shadow(0 4px 3px rgba(0, 0, 0, 0.4));
+}
+
+.transition-transform {
+  transition: transform 0.5s ease; 
+}
+
+
+.card {
+background: rgba( 108, 107, 107, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9px );
+-webkit-backdrop-filter: blur( 9px );
+border-radius: 10px;
+border: 2px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.customText2 {
+  color: yellow;
+  text-shadow: 2px 1px 0 #da3333;
+  color: yellow;
+  }
